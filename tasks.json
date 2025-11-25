@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Server",
+            "type": "shell",
+            "command": "C:/Users/Hassa/Documents/QuickChat/venv/Scripts/python.exe",
+            "args": ["C:/Users/Hassa/Documents/QuickChat/server.py"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "group": "chat"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Client",
+            "type": "shell",
+            "command": "C:/Users/Hassa/Documents/QuickChat/venv/Scripts/python.exe",
+            "args": ["C:/Users/Hassa/Documents/QuickChat/test_simple_client.py"],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "group": "chat"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Chat System",
+            "dependsOn": ["Run Server", "Run Client"],
+            "dependsOrder": "parallel",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+Getting Started
+Status: Done
+
+Creating a Server Instance
+Status: Done
+
+Running as an ASGI Application (you're using aiohttp)
+Status: Done
+
+Listening to Events
+Status: Done
+
+Connect and Disconnect Events
+Status: Done
+
+Catch-All Event Handlers
+Status: Done
+
+
+Read "Emitting Events to Clients" section (20 min)
+Status: 
+
+Read "Rooms" section (30 min)
+Status: 
+
+Read "User Sessions" section (15 min)
+Status: 
